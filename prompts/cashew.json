@@ -1,0 +1,14 @@
+{
+  "normal": [
+    "cashew nut",
+    "a photo of cashew nut",
+    "a cashew nut",
+    "a photo of a cashew nut",
+    "the cashew nut",
+    "a photo of the cashew nut"
+  ],
+  "abnormal": [
+    "a List 5 types of defects/anomalies in a cashew nut. Only return comma-separated words. 3. List 10 types of defects/anomalies in a cashew nut. 4. List 6 types of defects/anomalies in a cashew nut. 5. What are the 7 cashew nut",
+    "a photo of a List 5 types of defects/anomalies in a cashew nut. Only return comma-separated words. 3. List 10 types of defects/anomalies in a cashew nut. 4. List 6 types of defects/anomalies in a cashew nut. 5. What are the 7 cashew nut"
+  ]
+}

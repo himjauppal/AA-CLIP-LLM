@@ -1,0 +1,22 @@
+{
+  "normal": [
+    "gray carpet",
+    "a photo of gray carpet",
+    "a gray carpet",
+    "a photo of a gray carpet",
+    "the gray carpet",
+    "a photo of the gray carpet"
+  ],
+  "abnormal": [
+    "a List 5 specific adjectives describing different types of damage or defects in a gray carpet. Return ONLY a comma-separated list gray carpet",
+    "a photo of a List 5 specific adjectives describing different types of damage or defects in a gray carpet. Return ONLY a comma-separated list gray carpet",
+    "a brown gray carpet",
+    "a photo of a brown gray carpet",
+    "a white gray carpet",
+    "a photo of a white gray carpet",
+    "a gray gray carpet",
+    "a photo of a gray gray carpet",
+    "a yellow gray carpet",
+    "a photo of a yellow gray carpet"
+  ]
+}

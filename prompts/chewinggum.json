@@ -1,0 +1,22 @@
+{
+  "normal": [
+    "chewing gum",
+    "a photo of chewing gum",
+    "a chewing gum",
+    "a photo of a chewing gum",
+    "the chewing gum",
+    "a photo of the chewing gum"
+  ],
+  "abnormal": [
+    "a List 5 types of defects/flaws in a chewing gum. Only return comma-separated words chewing gum",
+    "a photo of a List 5 types of defects/flaws in a chewing gum. Only return comma-separated words chewing gum",
+    "a 1. Bubble chewing gum",
+    "a photo of a 1. Bubble chewing gum",
+    "a 2. Pull chewing gum",
+    "a photo of a 2. Pull chewing gum",
+    "a 3. Stretch chewing gum",
+    "a photo of a 3. Stretch chewing gum",
+    "a 4. Crack chewing gum",
+    "a photo of a 4. Crack chewing gum"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "normal": [
+    "tile",
+    "a photo of tile",
+    "a tile",
+    "a photo of a tile",
+    "the tile",
+    "a photo of the tile"
+  ],
+  "abnormal": [
+    "a - cracked\n    - discolored\n    - faded\n    - chipped\n    - cracked\n    - discolored\n    - faded\n    - chipped\n    - cracked\n    - discolored\n    - faded\n    - tile",
+    "a photo of a - cracked\n    - discolored\n    - faded\n    - chipped\n    - cracked\n    - discolored\n    - faded\n    - chipped\n    - cracked\n    - discolored\n    - faded\n    - tile"
+  ]
+}

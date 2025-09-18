@@ -1,0 +1,47 @@
+#!/bin/bash
+# put your install commands here (remove lines you don't need):
+# make sure you run `chmod a+x install.sh` in cluster to give permission to this batch file
+# make sure only first task per node installs stuff, others wait
+DONEFILE="/tmp/install_done_${SLURM_JOBID}"
+if [[ $SLURM_LOCALID == 0 ]]; then  
+  # put your install commands here (remove lines you don't need):
+  apt update
+  apt clean
+  pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
+  pip install -e ".[torch]"
+  pip install -r /netscratch/kashyap/MCVD/packages/requirements.txt
+  # pip install ffmpeg-python
+
+
+  # pip install -U --force-reinstall Pillow==9.5.0
+#   pip install Pillow==9.5.0
+    # pip install transformers==4.19.2
+  # If encountered issue with opencv lib, use one of the following fixes:
+    # pip install earthengine-api
+    # python -m pip install -U scikit-image
+    # curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-472.0.0-linux-x86_64.tar.gz
+    # tar -xf google-cloud-cli-472.0.0-linux-x86_64.tar.gz
+    # ./google-cloud-sdk/install.sh
+  # Fix-1.
+  pip uninstall opencv-python
+  pip uninstall opencv-contrib-python
+  pip uninstall opencv-contrib-python-headless
+  pip install opencv-python==4.5.5.64
+  pip install opencv-contrib-python==4.5.5.64
+  pip install opencv-python-headless==4.5.5.64
+
+  # OR
+  
+  # Fix-2.
+  # pip install opencv-fixer==0.2.5
+  # python3 -c "from opencv_fixer import AutoFix; AutoFix()"
+  # pip3 install opencv-python --upgrade
+
+  apt-get clean
+  
+  # Tell other tasks we are done installing
+  touch "${DONEFILE}"
+else
+  # Wait until packages are installed
+  while [[ ! -f "${DONEFILE}" ]]; do sleep 1; done
+fi

@@ -1,0 +1,22 @@
+{
+  "normal": [
+    "cashew nut",
+    "a photo of cashew nut",
+    "a cashew nut",
+    "a photo of a cashew nut",
+    "the cashew nut",
+    "a photo of the cashew nut"
+  ],
+  "abnormal": [
+    "a List 5 types of possible defects/anomalies in a cashew nut. Only return comma-separated words. 5 types of possible defects/anomalies in a cashew nut cashew nut",
+    "a photo of a List 5 types of possible defects/anomalies in a cashew nut. Only return comma-separated words. 5 types of possible defects/anomalies in a cashew nut cashew nut",
+    "a <ul> cashew nut",
+    "a photo of a <ul> cashew nut",
+    "a <li>Essential</li> cashew nut",
+    "a photo of a <li>Essential</li> cashew nut",
+    "a <li>Lesser Essential</li> cashew nut",
+    "a photo of a <li>Lesser Essential</li> cashew nut",
+    "a <li>Sour</ cashew nut",
+    "a photo of a <li>Sour</ cashew nut"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "normal": [
+    "candle",
+    "a photo of candle",
+    "a candle",
+    "a photo of a candle",
+    "the candle",
+    "a photo of the candle"
+  ],
+  "abnormal": [
+    "a defects = candle",
+    "a photo of a defects = candle"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "normal": [
+    "orange macaroni",
+    "a photo of orange macaroni",
+    "a orange macaroni",
+    "a photo of a orange macaroni",
+    "the orange macaroni",
+    "a photo of the orange macaroni"
+  ],
+  "abnormal": [
+    "a List 5 types of possible defects/anomalies in a orange macaroni. Only return comma-separated words orange macaroni",
+    "a photo of a List 5 types of possible defects/anomalies in a orange macaroni. Only return comma-separated words orange macaroni",
+    "a \"orange\" macaroni orange macaroni",
+    "a photo of a \"orange\" macaroni orange macaroni",
+    "a macaroni orange macaroni",
+    "a photo of a macaroni orange macaroni",
+    "a orange orange macaroni",
+    "a photo of a orange orange macaroni",
+    "a orange macaroni orange macaroni",
+    "a photo of a orange macaroni orange macaroni"
+  ]
+}
