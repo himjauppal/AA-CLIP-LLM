@@ -76,11 +76,3 @@ If you use this work, please cite:
 }
 ```
 
-## Contact
-For questions or collaborations:
-
-- Email: mwxisj@gmail.com
-
-- GitHub Issues: [Open Issue](https://github.com/Mwxinnn/AA-CLIP/issues)
-
-⭐ Star this repo if you find it useful!
